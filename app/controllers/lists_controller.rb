@@ -12,7 +12,8 @@ class ListsController < ApplicationController
     redirect_to '/top'
   end
 
-  def index
+  def index  #一覧画面用のアクションとして定義
+    @lists = List.all #テーブルに保存されたデータを全取得する
   end
 
   def show
