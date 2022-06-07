@@ -21,7 +21,7 @@ class ListsController < ApplicationController
 
   def edit
   end
-  
+
   private
   # ストロングパラメーター
   def list_params
